@@ -639,7 +639,7 @@ spec:
   secretRef:
     name: receiver-token
   resources:
-    - kind: GitRespository 
+    - kind: GitRepository 
       apiVersion: source.toolkit.fluxcd.io/v1
       name: webapp
       namespace: flux-system
